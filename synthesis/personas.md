@@ -5,6 +5,26 @@ Last updated: 2026-03-03
 
 ---
 
+## CXO & Founder Personas (Primary Buyers — Hypothesis Pain Points)
+
+Detailed persona files with testable hypotheses for CXO-level interviews:
+
+| Persona | File | # of Hypotheses | Status |
+|---------|------|:---------------:|--------|
+| CEO / Founder | [persona-ceo-founder.md](persona-ceo-founder.md) | 7 | Untested |
+| CMO / VP Marketing | [persona-cmo.md](persona-cmo.md) | 7 | Untested |
+| CRO / VP Sales | [persona-cro-cso.md](persona-cro-cso.md) | 7 | Untested |
+| CPO / VP Product | [persona-cpo.md](persona-cpo.md) | 7 | Untested |
+| CFO / VP Finance | [persona-cfo.md](persona-cfo.md) | 6 | Untested |
+
+Each file contains: hypothesis pain points, testable interview questions, validation checkboxes, buying triggers, ROI metrics, likely objections, and an interview tracker.
+
+---
+
+## IC-Level Personas (From 27 Interviews — Validated)
+
+---
+
 ## Persona 1: The Product Marketing Manager (PMM)
 **Strongest buyer signal. Most frequent pain. Highest urgency.**
 
