@@ -1,162 +1,94 @@
-# Key Themes -- Customer Research
+# Key Themes — Customer Research
 
-Recurring patterns across 27 customer and prospect interviews.
+Recurring patterns across 27 interviews.
 Last updated: 2026-03-03
 
 ---
 
-## Theme 1: Insights > Data (The "So What?" Problem)
-**Frequency:** 18 out of 27 interviews
-**Product implication:** The product MUST go beyond data aggregation. Raw competitor data is "happy to read, not to pay for." The differentiator is evidence-backed insights with recommended actions.
+## Theme 1: "Good to Have" vs "Must Have" Divide
+- **Frequency:** 15 out of 27 interviews
+- **Description:** Multiple interviewees explicitly called competitive intelligence tools "good to have" for B2B, while acknowledging it would be "must have" for B2C or for specific roles (PMMs, sales). The divide runs along: (a) company stage, (b) market competitiveness, and (c) buyer persona.
+- **Product implication:** Must anchor value proposition on **revenue impact** (deals won/lost, MQLs from battle cards) not on "information." The moment it's perceived as "nice to know," willingness to pay collapses.
 
-- Rajesh Sahu: "Any agent can be built in a day to scrape data. The decision is far more important."
-- Garima: "Information dump is just a dashboard. Build insights -- that flips the whole game."
-- Hareesh: "Create an insight and predict an impact. That would be more impactful."
-- Ram Rathi: "Aren't these insights a little surface level?"
-- Siddharth Jain: "I will be happy to pay when it helps me do business."
-- Rashi (KPMG): "Descriptive, not prescriptive -- show the data, let humans decide."
+## Theme 2: Insights > Information > Data
+- **Frequency:** 18 out of 27 interviews
+- **Description:** Universal rejection of "data dumps" and "dashboards." Teams already have too much information. What they lack is the "so what?" layer — actionable recommendations, decision support, and prioritized signals.
+- **Product implication:** The AI differentiation isn't in data collection (any agent can scrape). It's in the **synthesis + recommendation layer**. Every output should answer: "What should I do about this?"
 
-**Design takeaway:** Layer 1 = tracking/data, Layer 2 = synthesized insights, Layer 3 = recommended actions. Price increases per layer. Most companies build Layer 1; the moat is in Layer 2 and 3.
+## Theme 3: B2B Pricing is the Holy Grail (and Nearly Impossible)
+- **Frequency:** 19 out of 27 interviews
+- **Description:** Enterprise B2B pricing is never public. Current methods are: (1) hiring ex-employees, (2) asking prospects what competitors quoted, (3) paying millions for inaccurate benchmarks. Anyone who cracks this — even partially — captures enormous value.
+- **Product implication:** Don't promise exact pricing. Instead, offer **pricing signals** (tier changes, packaging shifts, pricing page modifications, deal-level intelligence from public sources like court filings, analyst reports). Position as "pricing intelligence" not "pricing data."
 
----
+## Theme 4: Sales Teams Need CI Most, But PMMs Build It
+- **Frequency:** 14 out of 27 interviews
+- **Description:** Sales and CS teams are the biggest consumers of competitive intel (battle cards, objection handling, win/loss analysis). But PMMs are the ones who create and maintain it. The buyer and the user are often different people.
+- **Product implication:** **Sell to PMMs** (they feel the pain of creation), **justify to leadership** via sales impact (deals won, faster ramp time for new AEs). Consider dual-persona onboarding.
 
-## Theme 2: Real-Time Alerts Are the Killer Feature
-**Frequency:** 16 out of 27 interviews
-**Product implication:** The single most requested feature across all personas. Today, teams discover competitor changes weeks or months later -- often from customers, not their own monitoring.
+## Theme 5: Weekly Cadence is the Sweet Spot
+- **Frequency:** 12 out of 27 interviews
+- **Description:** Daily alerts are overwhelming ("a ticker would be a deterrent"). Monthly is too slow. Weekly competitive digest — timed for Monday or before team standup — is the preferred cadence.
+- **Product implication:** Default delivery: **weekly email digest** with option to configure. Not a dashboard people log into daily. Make it come to them.
 
-- Siddharth (JustCall): "Your tool will give a notification when a change is made. Makes their job easy."
-- Tanvir (HackerRank): Competitor pre-empted their product launch by 2 days
-- Rashi (KPMG): "Real-time alerts on competitor pricing shifts -- highly valuable"
-- Jeevithan (Inkle): "If there's an automation that gives a notification whenever they launch something"
-- Rebin (Quest): "If there is any change in any product page... that will be additional value"
+## Theme 6: AI/LLM Has Raised the Floor But Not the Ceiling
+- **Frequency:** 16 out of 27 interviews
+- **Description:** Most interviewees already use ChatGPT, Perplexity, or Gemini for ad-hoc competitive research. AI has made basic research "good enough" for free. Klue/Crayon at $40K/yr is now hard to justify when ChatGPT does 70% of it.
+- **Product implication:** The product must deliver **what ChatGPT cannot**: (1) continuous monitoring over time, (2) change detection, (3) historical system of records, (4) structured outputs (battle cards, feature tables), (5) multi-source synthesis. Competing with "just use ChatGPT" is the real threat, not Klue.
 
-**Design takeaway:** Email/Slack digest (daily or weekly configurable), with severity-based alerting. Critical = pricing change, product launch. Standard = blog post, new hire. Low = social media mention.
+## Theme 7: AEO/GEO is the Next Frontier
+- **Frequency:** 4 out of 27 interviews (but all were deeply passionate)
+- **Description:** Marketers are urgently trying to understand how brands rank in AI search (ChatGPT, Perplexity, Gemini). Current tools (SE Ranking, Swiftly) are nascent. Manual tracking with interns is the norm.
+- **Product implication:** AEO/GEO competitive tracking could be a **wedge feature** — a differentiator no incumbent offers well. Low effort to build, high perceived value for content/SEO marketers.
 
----
+## Theme 8: Competitor Discovery (Unknown Unknowns)
+- **Frequency:** 7 out of 27 interviews
+- **Description:** Companies don't know all their competitors. New entrants, adjacent products, and international players slip under the radar. AI-powered competitor discovery is a highly valued capability.
+- **Product implication:** Onboarding flow should include "We found 5 competitors you may not be tracking" as an aha moment. This is the hook.
 
-## Theme 3: Battle Cards and Feature Tables Are the Core Deliverable
-**Frequency:** 14 out of 27 interviews
-**Product implication:** The feature comparison table / battle card is the single most used competitive artifact. It drives MQLs (HighRadius), informs product roadmaps, and enables sales conversations.
+## Theme 9: B2B CI is Seasonal, Not Continuous
+- **Frequency:** 13 out of 27 interviews
+- **Description:** Competitive intelligence work peaks during: annual operating plan (AOP) season, board meetings, pricing revisions (every 2-3 years), and new product launches. It's NOT an always-on activity for most teams.
+- **Product implication:** Pricing model should account for seasonality. Consider annual contracts with always-on monitoring but peak-period deeper analysis. Don't assume daily active usage.
 
-- Sankalp (HighRadius): "Competitor tables are one of the biggest contributors of MQLs"
-- Rohan (Inkle): Feature comparison dashboard is the core deliverable he wants
-- Rashi (KPMG): Feature comparison tables are Phase 1 of every consulting engagement
-- Tanvir (HackerRank): Battle cards are key but adoption is low in static PDF format
-
-**Design takeaway:** Auto-generated, always-up-to-date feature comparison tables. Interactive format (not PDF). Show deltas from last update.
-
----
-
-## Theme 4: The "Unknown Unknown" Problem
-**Frequency:** 8 out of 27 interviews
-**Product implication:** Companies track known competitors but are blind to emerging players until they appear in sales conversations or customer evaluations.
-
-- Hareesh: "Discovery of new upcoming names -- the unknown unknown. We don't know a competition is being built."
-- Rohan (Inkle): "There may be others we don't know about. That is where you will be most effective."
-- Harsh (Turvo): New TMS players keep appearing
-- Sai Bhaskar (Eltropy): "What if in a fifth random market someone comes up with a patent?"
-
-**Design takeaway:** Emerging competitor detection via patent filings, new market entrants (Crunchbase/funding signals), LinkedIn company page creation, and domain registration monitoring.
+## Theme 10: The Consulting Channel is Real
+- **Frequency:** 4 out of 27 interviews (KPMG, Deloitte, Genpact, Tech Mahindra)
+- **Description:** Consulting firms spend the first 2-4 weeks of every engagement on competitive research that Kompete could automate. KPMG charges $100K+ per engagement. Companies with $500K-$3M ARR can't afford consulting but need the same output.
+- **Product implication:** Two GTM motions: (1) Direct to companies ($500-$2,000/mo), (2) B2B2B to consulting firms ($5K-10K/mo per seat). The consulting channel validates the product and provides a high-ACV revenue stream.
 
 ---
 
-## Theme 5: Founders Are the Best Initial Buyer Persona
-**Frequency:** Recommended by 8+ interviewees, validated by 5 direct conversations
-**Product implication:** Founders are both buyer AND user. They need cross-departmental intelligence. Once they depend on the product, they expand it to their teams.
+## Pricing Signals Summary
 
-- Siddharth (JustCall): "Target founders. Once dependent, they'll bring in their teams."
-- Soubhik (ex-Google): "Don't try to serve the product team, serve the sales team" (but founders buy for the whole company)
-- Ram Rathi: "Good for a founder or CMO who don't want to spend time on general marketing research"
-- Shobit Bhargava: Startups won't pay; mid-market and beyond ($10M+ ARR) will
+| Source | Benchmark | Context |
+|--------|-----------|---------|
+| Shobit (startup advisor) | $1,500-$2,000/mo | For mid-market+ |
+| Tanvir (HackerRank) | Klue at $40K/yr was too expensive | Post-AI, ChatGPT does 70% of it |
+| Tanvir (HackerRank) | UpLimit at $10-12K/yr | Almost purchased for pitch practice alone |
+| Soubhik (DemandBase) | "Don't undercut. $100K if you can justify." | Value-based pricing advice |
+| Rashi (KPMG) | $100K+ per consulting engagement | Kompete at $499/mo = 94% cheaper |
+| Lakshay (Genpact) | Everest Group charges millions | For inaccurate benchmarks |
+| Ram Rathi (BlogVault) | "Just hire a junior marketer for 10-15K/mo" | Risk for small companies |
+| Siddharth (SaaS Labs) | "Low subscription, usage-based pricing" | Don't price high initially |
 
-**Design takeaway:** Land with founders at $10M-$100M ARR growth-stage companies. Expand to PMM, Sales, Product. Free tier for smaller startups to build pipeline.
-
----
-
-## Theme 6: Weekly Cadence, Not Daily Ticker
-**Frequency:** 12 out of 27 interviews
-**Product implication:** B2B competitive intelligence is consumed weekly or event-triggered, NOT daily. A ticker feed will be ignored and overwhelm.
-
-- Hareesh: Gets weekly report from N8N workflow
-- Mukesh: "Biweekly would help. Too frequent would be overwhelming."
-- Rebin: Wants weekly digest before Wednesday team meeting
-- Rohan (Inkle): Weekly aligns with their report cycle
-- Tanvir: Uses ChatGPT agent for weekly email digests
-
-**Design takeaway:** Default to weekly digest (configurable day). Critical alerts (pricing change, product launch) break through immediately. Avoid notification fatigue.
+**Emerging consensus:** $500-$1,500/mo for direct customers. $5K-$10K/mo for consulting/enterprise. Free tier or trial essential for adoption.
 
 ---
 
-## Theme 7: Existing Tools Are Seen as Overpriced or Obsolete
-**Frequency:** 6 out of 27 interviews
-**Product implication:** Pre-AI CI tools (Klue, Crayon) are seen as expensive for what ChatGPT can now approximate. The opportunity is to offer more than ChatGPT at less than legacy tools.
+## Feature Demand Ranking (by interview mentions)
 
-- Tanvir (HackerRank): Paid ~$40K/year for Klue; now considers it overpriced vs. ChatGPT
-- Gaurav: "Through ChatGPT I'll put a comparison... does a quite good kind of work"
-- Multiple interviewees use ChatGPT/Perplexity/Gemini for ad-hoc competitive research
-- Jeevithan: Google Alerts was abandoned -- "spam emails, not effective at all"
-
-**Design takeaway:** Price below Klue/Crayon ($40K+/yr). Differentiate on: (a) always-updated vs. point-in-time, (b) insights not just data, (c) pricing intelligence (unique), (d) research agent that goes deeper than ChatGPT.
-
----
-
-## Theme 8: B2B2B Opportunity -- Serve Consulting Firms
-**Frequency:** 5 out of 27 interviews
-**Product implication:** Consulting firms (KPMG, Deloitte, Everest Group, McKinsey) spend weeks on Phase 1 competitive research that could be automated. They would license a tool to accelerate analyst work.
-
-- Rashi (KPMG): "Automating competitive research would free consultants for higher-level analysis. KPMG would use a trusted tool."
-- Lakshay (Genpact): Everest charges millions for pricing benchmarks delivered in Excel
-- Sayantan (Deloitte): Big firms are ahead; target smaller/newer firms
-
-**Design takeaway:** Consider a "Consulting Edition" -- white-label reports, client workspaces, bulk competitor tracking. Price at $2K-$5K/mo (still 95% cheaper than hiring Everest).
-
----
-
-## Theme 9: SOC 2 and Enterprise Security Are Table Stakes
-**Frequency:** 3 out of 27 interviews (but critical for enterprise sales)
-**Product implication:** Enterprise buyers require SOC 2 compliance, vendor security reviews, and data handling policies before onboarding.
-
-- Sai Bhaskar: "Company requires SOC 2 compliance, 1-month POC period, and vendor security review"
-- Hareesh: Multi-workspace support needed for different product lines with different competitor sets
-
-**Design takeaway:** Plan for SOC 2 Type II certification before enterprise GTM. Build multi-workspace/team support into the architecture.
-
----
-
-## Pricing Signals from Interviews
-
-| Source | Signal | Anchor |
-|--------|--------|--------|
-| Shobit Bhargava | "$1,500-$2,000/month is decent" | Mid-market enterprise |
-| Rashi (KPMG) | "$499/mo validated (94% cheaper than $100K consulting)" | SMB/growth-stage |
-| Tanvir (HackerRank) | Was paying ~$40K/year for Klue | Enterprise PMM budget |
-| Anjali (Anaplan) | "Can reduce 25-30% of headcount" | Value-based pricing anchor |
-| Siddharth (JustCall) | "Keep subscription low, usage heavy" | Pricing model advice |
-| Soubhik (ex-Google) | "If you justify $100K in value, charge $100K" | Don't undercut |
-| Ram Rathi | At $20-30M ARR, might just hire a junior marketer | Below $20M ARR is risky |
-| Aditya (Kompete) | Targeting 2-3% of $100K consulting cost | $2K-$3K/mo positioning |
-
-**Recommended pricing structure:**
-- **Growth:** $499/mo (5 competitors, weekly digest, basic alerts)
-- **Pro:** $1,499/mo (15 competitors, daily alerts, insights layer, battle cards)
-- **Enterprise:** $3,000+/mo (25+ competitors, multi-workspace, API, predictive intel, SOC 2)
-- **Consulting Edition:** Custom pricing ($5K-$10K/mo, white-label, bulk tracking)
-
----
-
-## Most Wanted Features (Ranked by Demand Across All 27 Interviews)
-
-| Rank | Feature | Mentions | Key Advocates |
-|------|---------|----------|---------------|
-| 1 | Real-time competitor change alerts | 16 | Siddharth, Tanvir, Rashi, Jeevithan, Rebin |
-| 2 | Feature comparison table / battle card auto-gen | 14 | Sankalp, Rohan, Rashi, Tanvir |
-| 3 | Competitor website/product change tracking | 14 | Garima, Sai Bhaskar, Shaswat, Hareesh |
-| 4 | Pricing tier comparison & tracking | 12 | Lakshay, Rashi, Manasa, Rebin |
-| 5 | Review/sentiment aggregation (G2, Reddit, etc.) | 10 | Jeevithan, Mukesh, Harsh |
-| 6 | Predictive intelligence (hiring + patents + messaging = launch) | 8 | Hareesh, Tanvir, Harsh, Mukesh |
-| 7 | Positioning drift / messaging timeline | 8 | Sai Bhaskar, Garima, Hareesh |
-| 8 | Research agent (chat interface for ad-hoc queries) | 6 | Hareesh, Soubhik, Shaswat |
-| 9 | Partnership/integration tracking | 5 | Jeevithan, Harsh, Rohan |
-| 10 | Emerging competitor detection | 5 | Hareesh, Rohan, Harsh |
-| 11 | Content/SEO competitive analysis | 4 | Garima, Gaurav, Rohan |
-| 12 | Sales pitch practice with competitor personas | 2 | Tanvir (UpLimit charged $10-12K for this alone) |
+| Rank | Feature | Mentions | Priority |
+|------|---------|:--------:|:--------:|
+| 1 | Automated competitor alerts/notifications | 20 | Must-have |
+| 2 | Battle card / feature table auto-generation | 14 | Must-have |
+| 3 | Pricing change detection | 12 | Must-have |
+| 4 | Competitor website change tracking | 11 | Must-have |
+| 5 | Weekly competitive digest (email) | 12 | Must-have |
+| 6 | Actionable insights / recommendations | 15 | Must-have |
+| 7 | Historical system of records / drift tracking | 10 | High |
+| 8 | Competitor discovery (unknown unknowns) | 7 | High |
+| 9 | Review aggregation (G2, Capterra, Reddit) | 8 | Medium |
+| 10 | AEO/GEO ranking comparison | 4 | Medium (wedge) |
+| 11 | Content gap analysis | 6 | Medium |
+| 12 | Social media monitoring | 7 | Medium |
+| 13 | Competitor hiring signal tracking | 3 | Low |
+| 14 | In-product competitor access | 3 | Low (hard) |

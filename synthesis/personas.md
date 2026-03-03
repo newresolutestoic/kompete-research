@@ -1,4 +1,4 @@
-# Customer Personas -- Kompete.ai
+# Customer Personas — Kompete.ai
 
 Derived from 27 customer and prospect interviews.
 Last updated: 2026-03-03
@@ -6,135 +6,125 @@ Last updated: 2026-03-03
 ---
 
 ## Persona 1: The Product Marketing Manager (PMM)
-**Frequency in interviews:** 7/27
-**Representatives:** Jeevithan (Inkle), Tanvir (HackerRank), Sankalp (HighRadius), Rohan (Inkle), Garima (BrowserStack)
+**Strongest buyer signal. Most frequent pain. Highest urgency.**
 
-- **Role:** Product Marketing Manager / Content Marketing Lead
-- **Company size:** 50-5000 employees, $5M-$500M ARR
+- **Role:** Product Marketing Manager / Competitive Intelligence Analyst
+- **Company size:** $10M-$300M+ ARR B2B SaaS
+- **Seniority:** IC to Manager level (but influences tool purchase)
+- **Interviewees matching:** Tanvir (HackerRank), Sankalp (HighRadius), Jeevithan (Inkle), Rohan (Inkle), Anjali (Anaplan), Garima (BrowserStack)
 - **Key pain points:**
-  - Competitor website/messaging changes go unnoticed for weeks
-  - Battle cards and comparison pages go stale within days of publishing
-  - Manually tracking competitor content, SEO, and positioning is "hectic"
-  - No automated notification for competitor product launches or feature releases
-- **Current tools:** Semrush, G2, manual website browsing, Google Sheets, LinkedIn monitoring
-- **Buying triggers:**
-  - Competitor publishes a counter-page or undercuts messaging
-  - New product launch requires competitive positioning collateral fast
-  - Battle cards drive MQLs (proven at HighRadius: "biggest contributor of MQLs")
-- **Willingness to pay:** HIGH -- competitive collateral directly drives pipeline
-- **Quote:** "This will make my life easier 100%." (Garima)
-- **Product implications:** Automated alerts for messaging/feature changes, battle card generation, content gap analysis, competitor SEO tracking
+  - Battle cards go stale within a week
+  - Manual competitor website + pricing + feature tracking
+  - Cannot access competitor products (sales-led, gated)
+  - Competitor tables are #1 MQL driver but take days to build
+  - No automated alerts for competitor moves
+- **Current tools:** G2, Semrush, ChatGPT agents, manual browsing, fake LinkedIn profiles, external agencies posing as buyers
+- **Buying triggers:** New competitor launch, lost deal to competitor, quarterly planning cycle, new hire onboarding
+- **Willingness to pay:** Klue at $40K/yr was too expensive for "formatted battle cards." Sweet spot: $500-$1,500/mo for actionable, automated intel.
+- **Quote:** "As soon as you publish a page about a competitor, it becomes stale the next week." — Tanvir
 
 ---
 
-## Persona 2: The Product Manager
-**Frequency in interviews:** 9/27
-**Representatives:** Hareesh (Brand Protection), Sai Bhaskar (Eltropy), Harsh (Turvo), Mukesh (Way.com), Siddharth (JustCall), Anmol (Locus), Chanchal (Atlan), Shaswat (Bluehost)
+## Persona 2: The Growth-Stage Founder / CEO
+**Highest authority to buy. Strategic use case.**
 
-- **Role:** Product Manager / Senior PM
-- **Company size:** 50-2000 employees, $10M-$200M ARR
+- **Role:** Founder, CEO, or CXO at growth-stage startup
+- **Company size:** $1M-$50M ARR
+- **Seniority:** C-level
+- **Interviewees matching:** Rohan/Inkle CEO (Anand), Siddharth Jain (LeadSquared), Ram Rathi (BlogVault), Shobit (Locubator)
 - **Key pain points:**
-  - Feature gap analysis against competitors is manual and periodic
-  - Cannot access competitor products directly (blocked sign-ups, no free trials)
-  - Competitive intel only revisited at AOP / roadmap planning cycles
-  - Intelligence from CS/sales/marketing teams doesn't flow back systematically
-- **Current tools:** ChatGPT for research, manual competitor demos, G2 reviews, user interviews, Excel
-- **Buying triggers:**
-  - Annual product strategy / roadmap planning
-  - Customer explicitly asks for a competitor's feature
-  - Lost deal attributed to feature gap
-- **Willingness to pay:** MEDIUM -- CI is 5-10% of their equation; decisions are primarily inward-looking
-- **Quote:** "Keeping it updated is where the problem comes." (Sai Bhaskar)
-- **Product implications:** Feature comparison tables, change log tracking, quarterly competitor landscape reports, research agent for ad-hoc queries
+  - Wears many hats — no dedicated CI person
+  - Needs quick, synthesized competitive overview, not raw data
+  - Discovers competitor moves too late
+  - Manual LinkedIn monitoring daily (founder personally doing it)
+  - Pricing is gut-feel, not data-driven
+- **Current tools:** LinkedIn, ChatGPT, word-of-mouth, sales team intel
+- **Buying triggers:** Funding round (need competitive positioning for investors), board meeting prep, new market entry, pricing revision
+- **Willingness to pay:** $500-$2,000/mo. "At a 300M ARR scale, even helping them win one deal makes the ROI clear." — Ram Rathi
+- **Quote:** "It's good for a founder or a CMO primarily where they don't want to spend time doing general marketing research, they just want a quick insight." — Ram Rathi
 
 ---
 
-## Persona 3: The Founder / CEO
-**Frequency in interviews:** 5/27 (direct or strongly recommended as buyer)
-**Representatives:** Shobit Bhargava, Siddharth Jain (Coffee Chat), Ram Rathi, Vidushi (as former founder)
-**Strongly recommended by:** Siddharth Jain (JustCall), Soubhik, Rohan
+## Persona 3: The B2B Product Manager
+**Frequent user but not always the buyer. "Good to have" risk.**
 
-- **Role:** Founder, CEO, C-Suite
-- **Company size:** 10-500 employees, $1M-$100M ARR (growth stage)
+- **Role:** Product Manager, Senior PM, Group PM
+- **Company size:** $5M-$200M ARR
+- **Seniority:** IC to Director
+- **Interviewees matching:** Harsh (Turbo), Sai Bhaskar (Eltropy), Mukesh (Way.com), Siddharth Jain (SaaS Labs), Shaswat (Bluehost), Hareesh (Brand Protection Co.)
 - **Key pain points:**
-  - Wears too many hats; no time for structured competitive research
-  - Needs zoomed-out view across departments (product + sales + marketing + hiring)
-  - Currently relies on personal LinkedIn scrolling and gut feeling
-  - Information from different team meetings doesn't connect into strategic picture
-- **Current tools:** LinkedIn, personal network, team Slack channels, ad-hoc ChatGPT
-- **Buying triggers:**
-  - Fundraising (need competitive landscape for investors)
-  - Entering new market / geography
-  - Losing deals to unknown or underestimated competitor
-- **Willingness to pay:** HIGH at growth stage ($10M+ ARR); LOW at pre-seed/seed
-- **Quote:** "Target the founders of businesses. Once they become dependent, they'll bring in their teams." (Siddharth Jain)
-- **Product implications:** Executive-level weekly digest, cross-department intelligence synthesis, predictive competitor moves, strategic drift timeline
+  - Competitive analysis is 5-10% of their job, not 100%
+  - No proactive system — reacts when competitors ship something
+  - Feature gap analysis is manual (browsing competitor sites, reading release notes)
+  - Tracks 5-25 competitors but only deep-dives on top 2-3
+  - Spreadsheets and Notion docs get lost over time
+- **Current tools:** Competitor websites, G2, Gainsight, internal tools, LLMs (ChatGPT, Perplexity, Gemini)
+- **Buying triggers:** New feature planning, roadmap prioritization, competitor ships something unexpected
+- **Willingness to pay:** Lower — views CI as "good to have" not "must have." Rates tool at 7.5/10 importance. More likely to be influenced by team-wide adoption.
+- **Quote:** "I see this as a gap. The dynamic nature is definitely not there." — Harsh (Turbo)
+- **Caveat:** Multiple PMs said competitive intel is "good to have" for their role. Must pair with PMM or sales use case for budget justification.
 
 ---
 
-## Persona 4: The Pricing Analyst / Strategy
-**Frequency in interviews:** 5/27
-**Representatives:** Lakshay (Genpact), Manasa (Tech Mahindra), Rashi (KPMG), Sayantan (Deloitte), Shobit Bhargava
+## Persona 4: The Pricing Consultant / Strategy Analyst
+**Niche but high-value. Potential B2B2B channel.**
 
-- **Role:** Pricing Analyst, Pre-Sales, Strategy Consultant
-- **Company size:** Enterprise (1000+ employees) or consulting firm
+- **Role:** Pricing Analyst, Strategy Consultant, Engagement Manager
+- **Company size:** Big 4 / boutique consulting firms, or in-house pricing teams at $50M+ companies
+- **Seniority:** Analyst to Manager
+- **Interviewees matching:** Rashi (KPMG), Lakshay (Genpact), Sayantan (Deloitte), Manasa (Syncron/Tech Mahindra)
 - **Key pain points:**
-  - Competitor pricing is opaque; rely on expensive external benchmarks (Everest: millions)
-  - Excel-heavy pricing processes with no automation
-  - Pricing for new categories (AI, agentic) has zero benchmarks
-  - Clients demand value-based pricing but no tools exist to support it
-- **Current tools:** Everest Group reports, Capital IQ, Excel, internal deal data
-- **Buying triggers:**
-  - New deal requiring competitive pricing benchmark
-  - Quarterly/annual pricing review cycle
-  - Client asks "why are you more expensive than X?"
-- **Willingness to pay:** VERY HIGH -- companies pay $100K+ for one-time consulting; $499-$2000/mo is 94%+ cheaper
-- **Quote:** "If this platform available for everyone to use, that would create a lot of headway." (Lakshay)
-- **Product implications:** Pricing tier comparison, feature-price mapping, automated website price scraping, pricing change alerts
+  - Research + feature comparison is the most time-consuming phase (Phase 1 of every engagement)
+  - Competitor pricing is never public in B2B — relies on insider networks and expensive third-party benchmarks
+  - Everest Group reports cost millions and are still inaccurate
+  - New categories (AI agents, gain-share pricing) have zero benchmarks
+  - Companies with $500K-$3M ARR can't afford $100K consulting but desperately need pricing help
+- **Current tools:** Capital IQ, Everest Group reports, manual web scraping, Excel models, surveys with conjoint analysis
+- **Buying triggers:** New client engagement, repricing cycle (every 2-3 years), market entry analysis
+- **Willingness to pay:** HIGH. KPMG charges $100K+ per engagement. Kompete at $499/mo is 94% cheaper. B2B2B licensing to consulting firms at $5K-10K/month per seat is viable.
+- **Quote:** "Automating competitive research would free consultants for higher-level analysis. KPMG would use a trusted tool to accelerate Phase 1." — Rashi (KPMG)
 
 ---
 
-## Persona 5: The Sales / CS Leader
-**Frequency in interviews:** 3/27 (direct), recommended by 6+ others
-**Representatives:** Siddharth Jain (Coffee Chat), Soubhik (ex-Google), Tanvir (re: sales enablement)
+## Persona 5: The Content / SEO Marketer
+**Emerging persona. Daily use case. AEO/GEO is the hook.**
 
-- **Role:** Sales Leader, CSM, RevOps
-- **Company size:** 100-5000 employees
+- **Role:** Content Marketing Manager, SEO Lead, Growth Marketer
+- **Company size:** $5M-$100M ARR
+- **Seniority:** IC to Lead
+- **Interviewees matching:** Garima (BrowserStack), Gaurav (Hotelogix), Ram Rathi (BlogVault)
 - **Key pain points:**
-  - Prospects mention competitors in calls but no system captures/routes this intel
-  - Battle cards have low adoption among sales reps (prefer interactive practice tools)
-  - Lost-deal analysis doesn't systematically feed back to product/marketing
-  - Real-time conversation intelligence for detecting competitor signals in calls is missing
-- **Current tools:** Gong, CRM (Salesforce), battle cards (PDF), Outreach
-- **Buying triggers:**
-  - Pattern of deals lost to same competitor
-  - New competitor entering market and stealing accounts
-  - Need to upskill SDRs on competitive positioning
-- **Willingness to pay:** HIGH -- directly tied to revenue
-- **Quote:** "For sales it is completely different. The pricing information, the reviews, everything is a gold mine." (Soubhik)
-- **Product implications:** Battle card automation, sales pitch practice with competitor personas, real-time call intelligence, competitor mention alerts from CRM
+  - Tracking competitor content output (blogs, webinars, newsletters) is manual and hectic
+  - AEO/GEO (AI Engine Optimization) is a new unsolved frontier — manually checking ChatGPT/Perplexity rankings
+  - Google AI Overview is disrupting SEO click-through rates
+  - Need content gap analysis but Semrush alone isn't enough
+  - Competitor ad bidding intelligence is scattered
+- **Current tools:** Semrush, Ahrefs, SE Ranking, Swiftly, Google Search Console, LinkedIn Dashboard, manual SERP analysis
+- **Buying triggers:** Quarterly content planning, SEO traffic drop, competitor content surge, AEO strategy development
+- **Willingness to pay:** Moderate. Would justify as replacement/complement to Semrush ($100-$400/mo range). "This will make my life easier 100%." — Garima
+- **Quote:** "Getting the content pieces in headline forms, even the topics are enough to understand what others are writing. Newsletter type." — Garima
 
 ---
 
-## Anti-Persona: Early-Stage PM / Solo Operator
-**Representatives:** Mohamed Affan, Rajesh Sahu
+## Anti-Personas (Who NOT to Target First)
 
-- **Company size:** <$5M ARR, <50 employees
-- **Why NOT a fit:**
-  - "I'll just hire another junior marketer who will get me this data" (Ram Rathi)
-  - Teams are small enough that everyone knows the competitive landscape informally
-  - Budget constrained; will use ChatGPT + manual research instead
-  - CI is <10% of their job
-- **Exception:** May convert as company scales past $10M ARR
+### Small Startups (<$1M ARR)
+"Startups tend to believe that their product is the best. Nobody will pay for it." — Shobit. Founder-driven strategy, no budget for CI tools.
+
+### Niche/Non-Competitive Markets
+WordPress ecosystem (Ram Rathi) — community is small, friendly, news travels within 24 hours. No CI tool needed.
+
+### Pure Product Managers (Without PMM/Sales Tie-In)
+PMs rate CI as 5-10% of their job. Without a PMM or sales champion alongside them, budget justification is weak.
 
 ---
 
-## Persona Priority for Go-to-Market
+## Persona Priority Matrix
 
-| Priority | Persona | Reason |
-|----------|---------|--------|
-| P0 | **Founder / CEO** | Buyer + user; land-and-expand into departments |
-| P0 | **Product Marketing Manager** | Highest frequency of CI usage; direct MQL impact |
-| P1 | **Pricing Analyst / Strategy** | Highest willingness to pay; replaces $100K consulting |
-| P1 | **Sales / CS Leader** | Revenue-linked; battle cards and deal intelligence |
-| P2 | **Product Manager** | Periodic user; important but not daily |
+| Persona | Urgency | Budget | Frequency of Use | Ease of Sale | Priority |
+|---------|:-------:|:------:|:-----------------:|:------------:|:--------:|
+| PMM | HIGH | MED-HIGH | Weekly | Medium | **#1** |
+| Founder/CEO | HIGH | HIGH | Weekly | Easy | **#2** |
+| Pricing Consultant | HIGH | VERY HIGH | Per-engagement | Medium | **#3** |
+| Content/SEO Marketer | MED | MED | Daily | Easy | **#4** |
+| Product Manager | MED | LOW | Monthly | Hard | #5 |
